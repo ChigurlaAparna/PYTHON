@@ -1,0 +1,5 @@
+a=int(input("Enter the first number:"))
+b=int(input("Enter the second number:"))
+print("AND:",a>2 and b>0)
+print("OR:",a>2 or b>0)
+print("NOT:",not(a > b))
