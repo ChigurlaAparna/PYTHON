@@ -1,0 +1,5 @@
+lst=["pyhton","is","a","programming","language"]
+string=""
+for i in lst:
+    string=string+i+" " 
+print (string)
