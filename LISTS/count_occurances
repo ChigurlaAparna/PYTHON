@@ -1,0 +1,7 @@
+lst=list(map(int,input("Enter the list:").split()))
+x=int(input("Enter a number to count:"))
+count=0
+for i in lst:
+    if x == i:
+        count+=1
+print("occuranaces:",count)        
