@@ -1,0 +1,6 @@
+lst=list(map(int,input("Enter the list:").split()))
+reverse_list=[]
+for i in range(len(lst)-1,-1,-1):
+    reverse_list.append(lst[i])
+print("reverse_list:",reverse_list)    
+
