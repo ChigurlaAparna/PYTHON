@@ -1,0 +1,7 @@
+lst=list(map(int,input("Enter the list:").split()))
+unique=[]
+for i in lst:
+    if i not in unique:
+        unique.append(i)
+print("Unique numbers:",unique)        
+        
