@@ -1,0 +1,24 @@
+lst = list(input("Enter the list").split())
+number = []
+letter = []
+for i in lst:
+    if i.isdigit():
+        number.append(int(i))
+    else:
+        letter.append(i)
+for i in range(len(number)):
+    for j in range(i+1,len(number)):
+        if number[i]>number[j]:
+         temp=number[i]
+         number[i]=number[j]
+         number[j]=temp
+for i in range(len(letter)):
+   for j in range(i+1,len(letter)):
+      if letter[i]>letter[j]:
+         temp=letter[i]
+         letter[i]=letter[j]
+         letter[j]=temp
+print(number,letter)
+
+
+
