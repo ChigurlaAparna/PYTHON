@@ -1,0 +1,3 @@
+t=tuple(map(int,input("Enter the tuple:").split()))
+sorted=tuple(sorted(t))
+print("sorted tuple:",sorted)
