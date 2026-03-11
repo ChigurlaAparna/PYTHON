@@ -1,0 +1,4 @@
+s1=set(map(int,input("Enter the set1:").split()))
+s2=set(map(int,input("Enter the set2:").split()))
+result=s1.difference (s2)
+print(result)
