@@ -1,0 +1,4 @@
+t=tuple(map(int,input("Enter the tuple:").split()))
+s=set(t)
+for i in s:
+ print(i,' ',t.count(i))
