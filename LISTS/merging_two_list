@@ -1,0 +1,8 @@
+lst1=list(map(int,input("Enter the list1:").split()))
+lst2=list(map(int,input("Enter the list2:").split()))
+merged_lst=[]
+for i in lst1:
+    merged_lst.append(i)
+for j in lst2:
+    merged_lst.append(j)
+print("merged list:",merged_lst)
