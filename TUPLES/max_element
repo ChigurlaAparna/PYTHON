@@ -1,0 +1,7 @@
+t=tuple(map(int,input("Enter the touple:").split()))
+max_element=t[0]
+for i in t:
+    if i>max_element:
+        max_element=i
+print("Max element:",max_element)
+
